@@ -45,6 +45,7 @@ CSS
 * CSS样式定义   
 * CSS定位
 * CSS选择器
+* CSS层叠次序和优先级
 * IE滤镜基础知识
 * IE浏览器使用css表达式引入脚本( expression && behavior )
 * #实例( css多级联动菜单 )
@@ -74,7 +75,9 @@ JavaScript 是一种__轻量级__的编程语言。
         * 数值运算、字符串运算、比较运算、逻辑运算等
         * 各种全局对象的显式定义
         * 条件、循环和分支
+        * 递归典型案例以及实现要素( 结束标志 + 可递归算法 )
         * 关键字和保留字
+        * #练习( [简单排序算法的原理及实现](http://runjs.cn/detail/m1pgexjv) )
         * JSON
         * [JS秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
     * [全局对象](http://w3school.com.cn/jsref/index.asp)
@@ -97,9 +100,31 @@ JavaScript 是一种__轻量级__的编程语言。
     * HttpRequest
     * DOM的attributes操作
     * HTML-DOM的css操作
+* 浏览器javascript加载/执行基本特点
+* #练习( [星级评分☆☆☆☆☆](http://runjs.cn/detail/evsimdcq) )
+* #实例( [windows计算器](http://runjs.cn/detail/0wgck9pa) )
 
 jQuery
 ======
 浏览器上面最流行的一套javascript方法库
 
-[wfQuery](https://github.com/shy2850/wfQuery)
+第七讲(8课时)
+------------
+* jQuery对象
+* jQuery的类扩展和原型扩展
+* [Sizzle(jQuery选择器)](http://w3school.com.cn/jquery/jquery_ref_selectors.asp)
+* jQuery事件绑定和事件代理的实现原理和注意事项
+*【this】和【$(this)】
+* jQuery的属性操作、css操作 && data数据绑定
+* jQuery.ajax
+* jQuery.fn.animate
+* jQuery基本实现原理讲解 [wfQuery](https://github.com/shy2850/wfQuery)
+* #实例( [简单俄罗斯方块](http://runjs.cn/detail/h05vfmrb) )
+
+
+模块化
+======
+第八讲(4课时)
+-------------
+* 什么是模块化?
+* nodejs的AMD && requirejs的CMD
