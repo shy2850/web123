@@ -2,7 +2,7 @@ HTML
 ====
 超文本 __标记语言__ (Hyper Text Markup Language)
 
-第一讲(4-6课时)
+第一讲(6课时)
 -------------
 * HTML基础结构
 * HTML标签    ``/<(\w+)>(.*?)(<\/\1>)?/``
@@ -22,7 +22,7 @@ HTML
     * 从超文本的标记 到 可扩展标记语言
     * 可以做网页的 __数据传输格式__ ( ? )
 
-第二讲(4-6课时)
+第二讲(6课时)
 -------------
 * HTML之"偷懒的HTML-coder"
     * zencoding/emmet
@@ -50,7 +50,7 @@ CSS
 * IE浏览器使用css表达式引入脚本( expression && behavior )
 * #实例( css多级联动菜单 )
 
-第四讲(4-6课时)
+第四讲(8课时)
 ---------------
 * 更多的CSS功能: CSS3
     * 扩展选择器
@@ -67,7 +67,7 @@ JavaScript
 ==========
 JavaScript 是一种__轻量级__的编程语言。
 
-第五讲(8课时)
+第五讲(12课时)
 -------------
 * ECMAScript    [http://w3school.com.cn/js/pro_js_syntax.asp](http://w3school.com.cn/js/pro_js_syntax.asp)
     * 基本语法 (任何编程语言的基本语法，都是不涉及平台和实际应用功能的)
@@ -85,7 +85,7 @@ JavaScript 是一种__轻量级__的编程语言。
     * 面向对象(封装、继承、多态)
     * #实例( 面向对象应用实例 )
 
-第六讲(8课时)
+第六讲(12课时)
 -------------
 * BOM
     * Window
@@ -122,9 +122,31 @@ jQuery
 * #实例( [简单俄罗斯方块](http://runjs.cn/detail/h05vfmrb) )
 
 
-模块化
+模块化和构建
 ======
-第八讲(4课时)
+第八讲(6课时)
 -------------
-* 什么是模块化?
-* nodejs的AMD && requirejs的CMD
+* 什么是模块化? 为什么需要模块化。
+* nodejs的AMD && requirejs的CMD。
+* 前端构建解决那些问题？
+
+nodejs
+========
+第九讲(12课时)
+--------------
+* 服务端开发和前端开发差异
+* nodejs 环境安装测试
+* nodejs 模块查询规范
+* npm 常用操作
+* 发布自己的包到npm仓库
+* 构建自己的node服务器: [f2e-server](https://github.com/shy2850/node-server)
+
+SVG & canvas
+============
+第十讲(12课时)
+--------------
+* SVG: 使用 XML 格式定义图形
+* canvas vs SVG
+* SVG / canvas 在低端浏览器的替代应用
+    * [Raphsel.js](http://raphaeljs.com/) ( SVG & VML 兼容类库)
+    * [Zrender.js](http://ecomfe.github.io/zrender/) ( canvas & xcanvas 兼容类库 )
