@@ -65,7 +65,7 @@ CSS
 
 JavaScript
 ==========
-JavaScript 是一种__轻量级__的编程语言。
+JavaScript 是一种__轻量级__的__编程语言__。
 
 第五讲(12课时)
 -------------
@@ -102,6 +102,7 @@ JavaScript 是一种__轻量级__的编程语言。
     * HTML-DOM的css操作
 * 浏览器javascript加载/执行基本特点
 * #练习( [星级评分☆☆☆☆☆](http://runjs.cn/detail/evsimdcq) )
+* #练习( [模拟下拉框](http://runjs.cn/detail/evsimdcq) )
 * #实例( [windows计算器](http://runjs.cn/detail/0wgck9pa) )
 
 jQuery
@@ -120,30 +121,36 @@ jQuery
 * jQuery.fn.animate
 * jQuery基本实现原理讲解 [wfQuery](https://github.com/shy2850/wfQuery)
 * #实例( [简单俄罗斯方块](http://runjs.cn/detail/h05vfmrb) )
-
-
-模块化和构建
-======
-第八讲(6课时)
--------------
-* 什么是模块化? 为什么需要模块化。
-* nodejs的AMD && requirejs的CMD。
-* 前端构建解决那些问题？
+* #扩展( [基于jQuery的表单验证](http://shy2850.github.io/wfQuery/demo/7.formValid.html) )
 
 nodejs
 ========
-第九讲(12课时)
+第八讲(12课时)
 --------------
 * 服务端开发和前端开发差异
 * nodejs 环境安装测试
 * nodejs 模块查询规范
 * npm 常用操作
+* 常用nodejs模块
 * 发布自己的包到npm仓库
 * 构建自己的node服务器: [f2e-server](https://github.com/shy2850/node-server)
 
+
+模块化和构建
+======
+第九讲(6课时)
+-------------
+* 什么是模块化? 为什么需要模块化。
+* nodejs的CMD && requirejs的AMD。
+* 前端构建解决那些问题？
+* 工具化/流程化的前端构建。
+
+
+
+============
 SVG & canvas
 ============
-第十讲(12课时)
+第十讲(12课时) 【待定】
 --------------
 * SVG: 使用 XML 格式定义图形
 * canvas vs SVG
